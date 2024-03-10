@@ -6,7 +6,7 @@ claude3-video <br>
 
 claude3 を使って動画を作成します
 
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Jej48GaDZi1yYdX4OZVxKeBd1R05onLL?usp=sharing)
 
 **必要条件**
 
