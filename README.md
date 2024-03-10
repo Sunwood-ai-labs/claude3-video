@@ -1,6 +1,6 @@
 
 <h1>
-<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/OwlWhisper/main/docs/OwlWhisper.png" height=200px align="right"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/claude3-video/main/docs/claude3-video_icon.png" height=200px align="right"/>
 claude3-video <br>
 </h1>
 
