@@ -56,16 +56,3 @@ manim -pqh A_Neurons_Perspective.py NeuronPOV
 - `NeuronPOV` は、レンダリングするシーンの名前です。
 
 レンダリングが完了すると、`media/videos/main/1080p60/NeuronPOV.mp4` にアニメーションが保存されます。
-
-## ライセンス
-
-このプロジェクトは MIT ライセンスの下で公開されています。詳細については、[LICENSE](LICENSE) ファイルを参照してください。
-
-## 貢献
-
-Issue の作成や Pull Request は大歓迎です。改善点やフィードバックがある場合は、お気軽にご連絡ください。
-
-## 参考資料
-
-- [Manim 公式ドキュメント](https://docs.manim.community/)
-- [Manim コミュニティ](https://www.manim.community/)
