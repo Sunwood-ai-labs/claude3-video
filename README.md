@@ -1,6 +1,12 @@
-# claude3-video
+
+<h1>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/OwlWhisper/main/docs/OwlWhisper.png" height=200px align="left"/>
+claude3-video <br>
+</h1>
 
 claude3 を使って動画を作成します
+
+
 
 ## 必要条件
 
@@ -10,36 +16,46 @@ claude3 を使って動画を作成します
 
 ## セットアップ
 
-1. このリポジトリをクローンします。
+### 1. このリポジトリをクローンします。
 
 ```bash
 git clone https://github.com/Sunwood-ai-labs/claude3-video.git
 cd claude3-video
 ```
 
-2. 必要な依存関係をインストールします。
+### 2. 必要な依存関係をインストールします。
 
-### Ubuntu / Mint / Debian
+#### Ubuntu / Mint / Debian
 
 ```bash
 apt update
 apt install build-essential python3-dev libcairo2-dev libpango1.0-dev ffmpeg
 ```
 
-### その他の OS
 
-お使いの OS に応じて、Cairo、Pango、および FFmpeg をインストールしてください。
-
-3. Manim ライブラリをインストールします。
+### 3. Manim ライブラリをインストールします。
 
 ```bash
 pip install manim
 ```
 
-4. Manim のバージョンを確認します。
+### 4. Manim のバージョンを確認します。
 
 ```bash
 pip show manim
+
+---
+
+Name: manim
+Version: 0.18.0
+Summary: Animation engine for explanatory math videos.
+Home-page: https://www.manim.community/
+Author: The Manim Community Developers
+Author-email: contact@manim.community
+License: MIT
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: click, click-default-group, cloup, decorator, isosurfaces, manimpango, mapbox-earcut, moderngl, moderngl-window, networkx, numpy, Pillow, pycairo, pydub, Pygments, requests, rich, scipy, screeninfo, skia-pathops, srt, svgelements, tqdm, typing-extensions, watchdog
+Required-by: 
 ```
 
 ## 使用方法
@@ -56,3 +72,6 @@ manim -pqh A_Neurons_Perspective.py NeuronPOV
 - `NeuronPOV` は、レンダリングするシーンの名前です。
 
 レンダリングが完了すると、`media/videos/main/1080p60/NeuronPOV.mp4` にアニメーションが保存されます。
+
+![file](https://hamaruki.com/wp-content/uploads/2024/03/image-1710071582753.png)
+
