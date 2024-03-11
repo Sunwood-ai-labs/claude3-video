@@ -75,3 +75,6 @@ manim -pqh A_Neurons_Perspective.py NeuronPOV
 
 ![file](https://hamaruki.com/wp-content/uploads/2024/03/image-1710071582753.png)
 
+
+## Demo2: スライドの作成
+
