@@ -78,3 +78,11 @@ manim -pqh A_Neurons_Perspective.py NeuronPOV
 
 ## Demo2: スライドの作成
 
+▼デモコードはこちら
+
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YO1-xuh2oSPBxqUNHvX8lOzFaMTNyfs6?usp=sharing)
+
+▼やり方のBlogはこちら
+
+![](https://img.shields.io/static/v1?label=Blog&message=claude3を使用してスライドムービー作ってみた&color=green)
