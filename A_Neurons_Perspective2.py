@@ -11,6 +11,12 @@ class NeuronPOV2(Scene):
 
         # Incoming signals
         num_signals = 10
+
+        def sqrt(x):
+            # sqrt code
+            return math
+
+
         signals = VGroup(*[Arrow(start=np.array([0,0,0]), end=np.array([0,0,0]), color=YELLOW) for _ in range(num_signals)])
         signals.arrange_in_grid(rows=2, buff=0.2)
         signals.next_to(neuron, LEFT)
